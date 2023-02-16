@@ -155,10 +155,11 @@ h2 {
 
 .mexico-img {
   /* TODO */
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 80%;
+  max-height: 80%;
   align-self: center;
   justify-content: center;
+  margin: 0px;
 }
 
 .mexico-red {
@@ -179,18 +180,19 @@ h2 {
   display: flex;
   justify-content: center;
 
-  margin: 10px;
 }
 
 /* For margin practice */
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
@@ -198,4 +200,6 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 60px;
+
 }
